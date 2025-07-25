@@ -1,0 +1,69 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="20" y="20" width="320" height="600" rx="20" fill="#f8f9fa" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- ヘッダー -->
+  <rect x="20" y="20" width="320" height="60" rx="20 20 0 0" fill="#6f42c1"/>
+  <text x="180" y="55" text-anchor="middle" fill="white" font-size="18" font-weight="bold">履歴</text>
+  
+  <!-- 試験選択 -->
+  <rect x="40" y="90" width="280" height="35" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="50" y="112" fill="#333" font-size="12">基本情報技術者試験 ▼</text>
+  
+  <!-- 履歴リストタイトル -->
+  <text x="40" y="150" fill="#333" font-size="14" font-weight="bold">過去の結果</text>
+  
+  <!-- 履歴項目1（アコーディオン開） -->
+  <rect x="40" y="160" width="280" height="35" rx="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="50" y="178" fill="#1565c0" font-size="12" font-weight="bold">2024/07/24 - 70% (7/10問)</text>
+  <text x="320" y="182" text-anchor="end" fill="#1565c0" font-size="12">▼</text>
+  
+  <!-- 展開された問題一覧 -->
+  <rect x="40" y="205" width="280" height="140" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- 問題1（正解） -->
+  <rect x="50" y="215" width="260" height="20" rx="3" fill="#d4edda"/>
+  <text x="55" y="228" fill="#155724" font-size="9">✓ Q1. データベース正規化 ▶</text>
+  
+  <!-- 問題2（間違い・展開中） -->
+  <rect x="50" y="240" width="260" height="20" rx="3" fill="#f8d7da"/>
+  <text x="55" y="253" fill="#721c24" font-size="9">✗ Q2. SELECT文について ▼</text>
+  
+  <!-- 問題2の詳細 -->
+  <rect x="50" y="265" width="260" height="50" rx="3" fill="#fff"/>
+  <text x="55" y="277" fill="#666" font-size="8">選択: A,C | 正解: B,D</text>
+  <text x="55" y="287" fill="#666" font-size="8">● A. INNER JOIN（選択）</text>
+  <text x="55" y="297" fill="#666" font-size="8">● B. LEFT JOIN（正解）</text>
+  <text x="55" y="307" fill="#666" font-size="8">○ C. CROSS JOIN（選択）</text>
+  
+  <!-- 問題3（正解） -->
+  <rect x="50" y="320" width="260" height="20" rx="3" fill="#d4edda"/>
+  <text x="55" y="333" fill="#155724" font-size="9">✓ Q3. トランザクション処理 ▶</text>
+  
+  <!-- 履歴項目2（閉じた状態） -->
+  <rect x="40" y="360" width="280" height="35" rx="6" fill="#fff3e0" stroke="#ffcc02" stroke-width="1"/>
+  <text x="50" y="378" fill="#f57c00" font-size="12" font-weight="bold">2024/07/23 - 60% (6/10問)</text>
+  <text x="320" y="382" text-anchor="end" fill="#f57c00" font-size="12">▶</text>
+  
+  <!-- 履歴項目3（閉じた状態） -->
+  <rect x="40" y="405" width="280" height="35" rx="6" fill="#ffebee" stroke="#f8bbd9" stroke-width="1"/>
+  <text x="50" y="423" fill="#c62828" font-size="12" font-weight="bold">2024/07/22 - 40% (4/10問)</text>
+  <text x="320" y="427" text-anchor="end" fill="#c62828" font-size="12">▶</text>
+  
+  <!-- 履歴項目4 -->
+  <rect x="40" y="450" width="280" height="35" rx="6" fill="#e8f5e8" stroke="#c3e6cb" stroke-width="1"/>
+  <text x="50" y="468" fill="#155724" font-size="12" font-weight="bold">2024/07/21 - 80% (8/10問)</text>
+  <text x="320" y="472" text-anchor="end" fill="#155724" font-size="12">▶</text>
+  
+  <!-- 統計情報 -->
+  <rect x="40" y="500" width="280" height="60" rx="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="50" y="518" fill="#333" font-size="12" font-weight="bold">この試験の統計</text>
+  <text x="50" y="535" fill="#666" font-size="10">平均正答率: 62.5% | 受験回数: 4回</text>
+  <text x="50" y="548" fill="#666" font-size="10">最高得点: 80% | 最低得点: 40%</text>
+  
+  <!-- フィルター・ソートボタン -->
+  <rect x="40" y="575" width="135" height="30" rx="4" fill="#007bff"/>
+  <text x="107" y="594" text-anchor="middle" fill="white" font-size="11">期間で絞り込み</text>
+  
+  <rect x="185" y="575" width="135" height="30" rx="4" fill="#28a745"/>
+  <text x="252" y="594" text-anchor="middle" fill="white" font-size="11">CSVエクスポート</text>

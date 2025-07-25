@@ -1,0 +1,61 @@
+<svg viewBox="0 0 360 640" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect x="20" y="20" width="320" height="600" rx="20" fill="#f8f9fa" stroke="#e9ecef" stroke-width="2"/>
+  
+  <!-- ヘッダー -->
+  <rect x="20" y="20" width="320" height="60" rx="20 20 0 0" fill="#28a745"/>
+  <text x="180" y="55" text-anchor="middle" fill="white" font-size="18" font-weight="bold">問題を解く</text>
+  
+  <!-- 進捗表示 -->
+  <text x="180" y="100" text-anchor="middle" fill="#333" font-size="14">問題 3 / 10</text>
+  <rect x="40" y="105" width="280" height="8" rx="4" fill="#e9ecef"/>
+  <rect x="40" y="105" width="84" height="8" rx="4" fill="#28a745"/>
+  
+  <!-- 試験名表示 -->
+  <text x="40" y="135" fill="#666" font-size="12">基本情報技術者試験</text>
+  
+  <!-- 問題文エリア -->
+  <rect x="40" y="145" width="280" height="100" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="50" y="165" fill="#333" font-size="14" font-weight="bold">問題文</text>
+  <text x="50" y="185" fill="#333" font-size="12">データベースの第1正規形について</text>
+  <text x="50" y="200" fill="#333" font-size="12">正しい説明はどれですか？</text>
+  <text x="50" y="220" fill="#007bff" font-size="11" font-weight="bold">（複数選択可）</text>
+  
+  <!-- 選択肢A（選択済み） -->
+  <rect x="40" y="265" width="280" height="35" rx="8" fill="#e3f2fd" stroke="#007bff" stroke-width="2"/>
+  <circle cx="60" cy="282" r="6" fill="#007bff"/>
+  <text x="80" y="287" fill="#333" font-size="12">A. 繰り返し項目を排除する</text>
+  
+  <!-- 選択肢B -->
+  <rect x="40" y="310" width="280" height="35" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <circle cx="60" cy="327" r="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="80" y="332" fill="#333" font-size="12">B. 部分関数従属を排除する</text>
+  
+  <!-- 選択肢C（選択済み） -->
+  <rect x="40" y="355" width="280" height="35" rx="8" fill="#e3f2fd" stroke="#007bff" stroke-width="2"/>
+  <circle cx="60" cy="372" r="6" fill="#007bff"/>
+  <text x="80" y="377" fill="#333" font-size="12">C. 各項目が原子値である</text>
+  
+  <!-- 選択肢D -->
+  <rect x="40" y="400" width="280" height="35" rx="8" fill="white" stroke="#ddd" stroke-width="1"/>
+  <circle cx="60" cy="417" r="6" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="80" y="422" fill="#333" font-size="12">D. 推移関数従属を排除する</text>
+  
+  <!-- ナビゲーションボタン -->
+  <rect x="40" y="460" width="130" height="40" rx="8" fill="#6c757d"/>
+  <text x="105" y="483" text-anchor="middle" fill="white" font-size="14">前の問題</text>
+  
+  <rect x="190" y="460" width="130" height="40" rx="8" fill="#007bff"/>
+  <text x="255" y="483" text-anchor="middle" fill="white" font-size="14">次の問題</text>
+  
+  <!-- 時間表示 -->
+  <text x="180" y="525" text-anchor="middle" fill="#666" font-size="12">残り時間: 12:34</text>
+  
+  <!-- 問題一覧ボタン -->
+  <rect x="40" y="540" width="280" height="35" rx="8" fill="white" stroke="#007bff" stroke-width="1"/>
+  <text x="180" y="562" text-anchor="middle" fill="#007bff" font-size="12">問題一覧を表示</text>
+  
+  <!-- 終了ボタン -->
+  <rect x="40" y="585" width="280" height="35" rx="8" fill="#dc3545"/>
+  <text x="180" y="607" text-anchor="middle" fill="white" font-size="14">テストを終了</text>
+</svg>
